@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{50E94BAA-8470-0E92-E532-73AD05F66FC9}</ProjectGuid>
+    <ProjectGuid>{31A7B59A-4E0A-72D5-854E-18EB32A013FF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.ProBuilder</AssemblyName>
@@ -62,8 +62,8 @@
     <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.6\Runtime\Core\Submesh.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.6\Runtime\Core\IntVec3.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.6\Runtime\Shapes\Cylinder.cs" />
-    <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.6\Runtime\Core\Math.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.6\Runtime\Core\Face.cs" />
+    <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.6\Runtime\Core\Math.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.6\Runtime\MeshOperations\Triangulation.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.6\Runtime\MeshOperations\MeshValidation.cs" />
     <Compile Include="Library\PackageCache\com.unity.probuilder@5.0.6\Runtime\Core\ShapeGenerator.cs" />
@@ -746,15 +746,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.ProBuilder.Poly2Tri.Player.csproj">
-      <Project>{48C3D5DB-4687-2129-BA57-E2BA96C7F01A}</Project>
+      <Project>{836A3DFE-950F-D097-71AF-46243A267DA2}</Project>
       <Name>Unity.ProBuilder.Poly2Tri.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProBuilder.KdTree.Player.csproj">
-      <Project>{805D55D2-7182-7518-30DD-C93F1751820B}</Project>
+      <Project>{F7F5324E-0907-45C3-1BA1-C8F5E43DF96B}</Project>
       <Name>Unity.ProBuilder.KdTree.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{B4EA5730-9B05-D7A4-3082-CB2ABEF88F74}</Project>
+      <Project>{94643FF1-781C-B105-FDBF-EDB1BF69E7FE}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>
